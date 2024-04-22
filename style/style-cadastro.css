@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    align-content: center;
+    background-image: url("../img/fondo.webp");
+    background-color: #01032D;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+}
+
+.caixa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    background-color: white;
+    height: 70vh;
+    width: 35vw;
+    
+    border-radius: 20px;
+    
+}
+
+.formulario{
+    margin: 0 42px 0 42px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.h1-title{
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 3%;
+
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.colunas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20%;
+    margin-bottom: 7%;
+}
+
+.coluna-1{
+    display: flex;
+    flex-direction: column;
+}
+
+.coluna-2{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.input-name{
+    font-size: 13px;
+    font-weight: 500;
+    align-items: center;
+}
+
+
+.input{
+    width: 100%;
+    padding: 8% 20% 8% 10%;
+    border-radius: 5px;
+    border: 0.5px;
+
+    text-decoration: none;
+
+    background-color: #01032d26;
+}
+
+.send{
+    margin-top: 20px;
+    display: flex;
+    justify-content:center;
+    gap: 16%;
+}
+
+.cancel-input{
+    width: 30%;
+    height: 30%;
+    padding: 2%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 0.5px;
+    
+    background-color: #01032D;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border:2px solid #01032D;
+
+}
+
+.cancel-input:hover{
+    opacity: 70%;
+}
+
+.register-input{
+    width: 30%;
+    height: 30%;
+    padding: 2%;
+    margin-bottom: 4%;
+    border-radius: 5px;
+    border:2px solid #01032D;
+
+    color:#01032D;
+    text-decoration: none;
+    text-align: center;
+}
+
+.register-input:hover{
+    border:2px solid #01032D;
+    background-color: #01032D;
+    color: white;
+    opacity: 70%;
+}
+
+.documentos{
+    display: flex;
+    justify-content:space-around;
+}
+
+.caixa-documentos{
+    border:1px solid #01032D;
+    border-radius: 10px;
+    padding: 3%;
+
+    justify-content: left;
+
+}
+
+.input-documento{
+    display: none;
+}
+
+.identidade{
+
+}
+
+label {
+    font-size: smaller;
+    background-color: #01032D;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    padding: 5% 15%;
+
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    width:30%;
+    margin-left: 3%;
+}

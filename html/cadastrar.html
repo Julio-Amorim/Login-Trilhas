@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trilhas Inova</title>
+    <link rel="stylesheet" href="../style/style-cadastro.css">
+</head>
+<body>
+    <main>
+        <div class="caixa">
+            <div class="formulario">
+                <h1 class="h1-title">Cadastro</h1>
+                <div class="colunas">
+                    <div class="coluna-1">
+                        <h4 class="input-name">Nome Completo:</h4>
+                        <input type="text" placeholder="Nome Completo" class="input">
+                        <h4 class="input-name">CPF:</h4>
+                        <input type="number" placeholder="CPF" class="input">
+                        <h4 class="input-name">Telefone:</h4>
+                        <input type="tel" placeholder="Telefone" class="input">
+                        <h4 class="input-name">Endereço:</h4>
+                        <input type="text" placeholder="Endereço" class="input">
+                    </div>
+                    <div class="coluna-2">
+                        <h4 class="input-name">Cidade:</h4>
+                        <input type="text" placeholder="Cidade" class="input">
+                        <h4 class="input-name">Trilha:</h4>
+                        <input type="text" placeholder="Sua Trilha" class="input">
+                        <h4 class="input-name">Email:</h4>
+                        <input type="email" placeholder="Email" class="input">
+                        <h4 class="input-name">Senha:</h4>
+                        <input type="password" placeholder="Senha" class="input">
+                    </div>
+                </div>
+
+                <div class="documentos">
+                    <div class="identidade">
+                        <h4 class="input-name">Documento de Identidade</h4>
+                        <div class="caixa-documentos">
+                            <label for="identidade-id">Selecionar</label>
+                            <input type="file" id="identidade-id" class="input-documento" >
+                        </div>
+                    </div>
+                    <div class="comprovante">
+                        <h4 class="input-name">Comprovante de Residência</h4>
+                        <div class="caixa-documentos">
+                            <label id="comprovante-id">Selecionar</label>
+                            <input type="file" id="comprovante-id" class="input-documento">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="send">
+                    <a href="../index.html" class="cancel-input">Cancelar</a>
+                    <!-- <input type="submit" value="Cancelar" class="cancel-input"> -->
+                    <a href="cadastrar.html" class="register-input">Enviar</a>
+                    <!--<input type="submit" value="Cadastrar" class="register-input">-->
+                </div>
+            </div>  
+        </div>
+        <img src="../img/inova-logo.webp" alt="" class="logo">
+    </main>
+</body>
+</html>
