@@ -71,7 +71,7 @@ main{
 }
 
 .input-name{
-    font-size: 13px;
+    font-size: 10px;
     font-weight: 500;
     align-items: center;
 }
@@ -80,8 +80,8 @@ main{
 .input{
     width: 100%;
     padding: 8% 20% 8% 10%;
-    border-radius: 5px;
-    border: 0.5px;
+    border-radius: 5%;
+    border: 0.1px;
 
     text-decoration: none;
 
@@ -172,4 +172,112 @@ label {
 .logo{
     width:30%;
     margin-left: 3%;
+}
+
+@media (max-width: 1050px) {
+    .documentos{
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .caixa-documentos{
+        padding: 1%;    
+
+    }
+
+    label {
+        padding: 2% 10%;
+    }
+    
+    .logo{
+        width:26%;
+        margin-left: 2%;
+    }
+
+    .send{
+        margin-top: 20px;
+        display: flex;
+        justify-content:space-around;
+        gap: 10%;
+    }
+    
+    .cancel-input{
+        width: 35%;
+        padding: 3%;
+
+        font-size: 13px;
+    }
+    
+    .register-input{
+        width: 35%;
+        padding: 3%;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 900px) {
+    main{
+        flex-direction: column-reverse;
+    }
+
+    .caixa{
+        height: 85vh;
+        width: 45vw;
+    }
+
+    .h1-title{    
+        font-size: 15pt;
+        margin-bottom: 5%;
+    }
+
+    .colunas{
+        display:block;
+        flex-direction: column;
+        justify-content: left;
+        margin-bottom: 7%;
+    }
+    
+    .input{
+        width: 75%;
+        padding: 2% 10% 2% 10%;
+        border-radius: 5px;
+    }
+
+    .logo{
+        width:15%;
+        margin-bottom: 5%;
+    }
+}
+
+@media (max-width: 730px) {
+    .h1-title{    
+        font-size: 17pt;
+        margin-bottom: 10%;
+    }
+}
+
+@media (max-width: 600px) {
+    .caixa{
+        width: 60vw;
+    }
+
+    .h1-title{    
+        font-size: 17pt;
+        margin-bottom: 10%;
+    }
+}
+
+@media (max-width: 600px) {
+    .caixa{
+        width: 80vw;
+    }
+}
+
+@media (max-width: 500px) {
+    .h1-title{    
+        margin-bottom: 15%;
+    }
+    .caixa{
+        height: 80vh;
+    }
 }
